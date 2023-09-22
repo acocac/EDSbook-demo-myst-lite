@@ -3,44 +3,36 @@ version: 1
 project:
   # Title will be pulled directly from the first header of the article
   # or you can specify title in the page frontmatter of the article
-  title: La Palma Seismicity 2021
-  subtitle: An analysis of earthquake swarms in relation to the 2021 eruption
+  title: Cosmos-UK Soil Moisture (UKCEH)
+  subtitle: Exploration 2013-2019 public COSMOS-UK dataset.
   authors:
-    - id: spurves
-      name: Steve Purves
-      orcid: 0000-0002-0760-5497
+    - id: acoca
+      name: Alejandro Coca-Castro
+      orcid: 0000-0002-9264-1539
       corresponding: true
-      email: steve@curvenote.com
+      email: acoca@turing.ac.uk
       roles:
         - Investigation
-        - Project administration
         - Software
         - Visualization
       affiliations:
-        - curvenote
-    - id: rcockett
-      name: Rowan Cockett
-      orcid: 0000-0002-7859-8394
-      corresponding: false
-      roles: []
-      affiliations:
-        - curvenote
+        - turing
   affiliations:
-    - id: curvenote
-      name: Curvenote
-      department: Engineering Team
-      address: 123 Main St.
-      city: NYC
-      state: New York
-      postal_code: '10001'
-      country: USA
-      isni: '0000000000000000'
-      url: https://curvenote.com
-      email: support@curvenote.com
-      phone: 123-456-7890
-      fax: 123-456-7891
-  github: https://github.com/stevejpurves/ign-earthquake-data
-  binder: https://mybinder.org/v2/gh/Notebooks-Now/submission-myst-lite/HEAD?labpath=la-palma-visualization.ipynb
+    - id: turing
+      name: The Alan Turing Institute
+      department: Environment & Sustainability
+      address: British Library, 96 Euston Rd.,
+      city: London
+      state: Greater London
+      postal_code: 'NW1 2DB'
+      country: UK
+      #isni: '0000000000000000'
+      url: https://www.turing.ac.uk/
+      #email: support@curvenote.com
+      phone: 02038623352
+      #fax: 123-456-7891
+  github: https://github.com/acocac/EDSbook-demo-myst-lite
+  binder: https://mybinder.org/v2/gh/EDSbook-demo-myst-lite/HEAD?labpath=article.ipynb
   open_access: true
   license:
     content: CC-BY-SA-4.0
@@ -60,8 +52,9 @@ project:
           affiliations:
             - curvenote
   keywords:
-    - La Palma
-    - Earthquakes
+    - Hydrology
+    - Dataset
+    - Agriculture
   date: 2023-09-23
   requirements:
     - environment.yml
@@ -84,8 +77,8 @@ project:
       article: article.ipynb
       output: meca.zip
 site:
-  title: La Palma Seismicity 2021
-  logo_text: La Palma Seismicity 2021
+  title: Cosmos-UK Soil Moisture (UKCEH)
+  logo_text: Cosmos-UK Soil Moisture (UKCEH)
   template: article-theme
   nav:
     - title: MyST Docs
