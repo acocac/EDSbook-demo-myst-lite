@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+*.eps
+_build
+
+meca.zip
+files/
+*_pdf_logs/
+*_pdf_tex/
