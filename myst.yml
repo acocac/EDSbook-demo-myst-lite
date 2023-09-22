@@ -62,7 +62,7 @@ project:
   keywords:
     - La Palma
     - Earthquakes
-  date: 2022-05-11
+  date: 2023-09-23
   requirements:
     - environment.yml
   resources:
